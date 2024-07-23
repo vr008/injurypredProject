@@ -1,0 +1,12 @@
+{application,injurypred,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"injurypred"},
+              {modules,['Elixir.Injurypred','Elixir.Injurypred.Bucket',
+                        'Elixir.Injurypred.Registry',
+                        'Elixir.Injurypred.Router',
+                        'Elixir.Injurypred.Supervisor',
+                        'Elixir.Injurypred.User']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {env,[{routing_table,[]}]},
+              {mod,{'Elixir.Injurypred',[]}}]}.

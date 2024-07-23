@@ -1,0 +1,11 @@
+{application,injuryprediction,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"injuryprediction"},
+              {modules,['Elixir.Injury.Application','Elixir.Injury.Injury',
+                        'Elixir.Injury.Injuryprediction','Elixir.Injury.Main',
+                        'Elixir.Injury.NaiveBayesClassifier',
+                        'Elixir.Injury.Playersparser',
+                        'Elixir.Injury.Supervisor']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Injury.Application',[]}}]}.
